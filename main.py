@@ -12,3 +12,6 @@ print (f"My password is {password}")
 
 for i in range(1, 11):
     print(f"Your number is {i}")
+
+with open("colour.txt", "r+") as f:
+    print(f.read())
